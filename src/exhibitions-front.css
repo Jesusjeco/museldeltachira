@@ -1,0 +1,15 @@
+/*
+* Post type exhibition stylesheet
+*/
+
+.exhibition-card {
+    background-color: #E5E7F6;
+}
+.exhibition-image {
+    height    : 300px;
+    object-fit: cover;
+}
+
+.exhibition-text {
+    color: black;
+}

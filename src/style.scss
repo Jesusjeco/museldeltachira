@@ -1,0 +1,38 @@
+@import "bootstrap";
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width    : 100%;
+    max-width: 100%;
+}
+
+header .navbar-nav .nav-link {
+    text-align: center;
+}
+
+header.fixed-top {
+    position: fixed;
+}
+header + div {
+    margin-top: 70px;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    header.fixed-top {
+        position: relative;
+    }
+    header + div {
+        margin-top: unset;
+    }
+}
+
+@media (min-width: 1400px) {}

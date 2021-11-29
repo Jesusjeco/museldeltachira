@@ -1,0 +1,21 @@
+/*
+* Posts front stylehseet
+*/
+.post-title {
+    font-size: calc(1.375rem + .25vw);
+}
+
+@media (min-width: 576px) {
+    .post-title {
+        font-size: calc(1.375rem + .25vw);
+        color: black;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

@@ -1,0 +1,33 @@
+/*
+* Testimonial front stylesheet
+*/
+
+.testimonial-row {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 10%, #e5e7f6 11%, #e5e7f6 89%, #ffffff 90%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 10%, #e5e7f6 11%, #e5e7f6 89%, #ffffff 90%, #ffffff 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, #e5e7f6 11%, #e5e7f6 89%, #ffffff 90%, #ffffff 100%);
+    filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+}
+
+.testimonial-image-container {
+    width: 40%;
+}
+
+.testimonial-image {
+    border: 15px solid white;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .testimonial-image-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
